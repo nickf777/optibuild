@@ -1,0 +1,88 @@
+/* General Styling */
+
+html {
+    font-size: 62.5%;
+}
+
+
+/* Header Styling */
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    background: #FF9934;
+    font-size: 2rem;
+    height: 20vh;
+    align-items: center;
+    /* position: fixed; */
+    width: 100%;
+}
+
+header img {
+    margin-left: 20px;
+}
+
+
+ul {
+    list-style: none;
+    display: flex;
+    margin-right: 100px;
+}
+
+li {
+    margin: 5px;
+    padding: 5px;
+}
+
+li a {
+    text-decoration: none;
+    color: inherit;
+    padding: 10px;
+
+}
+
+li a:hover {
+    background: #fff;
+}
+
+/* Landing Styling */
+
+
+.landing{
+    height: calc(100vh - 20vh);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(./assets/large-kitchen.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.background {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    opacity: 0.8;
+    padding: 50px;
+    border-radius: 10px;
+    width: 50%;
+}
+
+/* Footer Styling */
+
+footer {
+    background: #FF9934;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tagline {
+    margin-bottom: 0;
+    padding-bottom: 20px;
+}
