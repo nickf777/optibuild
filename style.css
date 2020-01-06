@@ -1,7 +1,19 @@
+/* Google Fonts Link */
+/* font-family: 'Open Sans Condensed', sans-serif; */
+
+
 /* General Styling */
 
 html {
     font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 
@@ -9,40 +21,59 @@ html {
 
 header {
     display: flex;
-    justify-content: space-evenly;
-    background: #FF9934;
+    justify-content: space-between;
+    /* background: #FF9934; */
+    background: linear-gradient(45deg, rgb(245, 153, 62), #FF9934);
     font-size: 2rem;
     height: 20vh;
     align-items: center;
-    /* position: fixed; */
     width: 100%;
 }
 
 header img {
     margin-left: 20px;
+    border-radius: 5px;
 }
+
 
 
 ul {
     list-style: none;
     display: flex;
-    margin-right: 100px;
+    margin-right: 50px;
+    color: #663399;
+    font-weight: bold;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 li {
     margin: 5px;
     padding: 5px;
+
 }
 
 li a {
     text-decoration: none;
     color: inherit;
     padding: 10px;
-
+    padding-bottom: 2px;
 }
 
-li a:hover {
-    background: #fff;
+.contact-button {
+    background: #663399;
+    color: #fff;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+
+li a:hover:not(.contact-button) {
+    border-bottom: 3px solid #663399;
+    border-radius: 3px;
+    color: #fff;
+}
+
+.contact-button:hover {
+    background: #8c48cf;
 }
 
 /* Landing Styling */
@@ -66,11 +97,52 @@ li a:hover {
     align-items: center;
     justify-content: center;
     background-color: white;
-    opacity: 0.8;
+    opacity: 0.9;
     padding: 50px;
     border-radius: 10px;
     width: 50%;
 }
+
+.background h2 {
+    font-size: 4rem;
+    margin: 0 0 20px 0;
+}
+
+.background a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 10px;
+    background: #663399;
+    border-radius: 10px;
+    
+}
+
+/* Sectional Stylings */
+
+section:not(.landing):not(.consult) {
+    padding-bottom: 20px;
+    margin: 0 50px 0 50px;
+    border-bottom: 1px solid rgb(43, 42, 42);
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.mailing {
+    display: grid;
+}
+
+.mailing div {
+    width: 50%;
+}
+
+
+.opt-in img {
+    width: 25%;
+    height: 25%;
+}
+
+
 
 /* Footer Styling */
 
