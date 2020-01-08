@@ -44,8 +44,6 @@ header img {
     cursor: pointer;
 }
 
-
-
 ul {
     list-style: none;
     display: flex;
@@ -83,10 +81,13 @@ li a:hover:not(.contact-button) {
     border-bottom: 3px solid #663399;
     border-radius: 3px;
     color: #fff;
+    text-decoration: none;
 }
 
 .contact-button:hover {
     background: #8c48cf;
+    text-decoration: none;
+    color: #fff;
 }
 
 /* Landing Styling */
