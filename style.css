@@ -272,6 +272,20 @@ section:not(.landing):not(.consult) {
     text-align: center;
 }
 
+.carousel-indicators {
+    margin-top: 5px;
+}
+
+.carousel-indicators li{
+    background: #663399;
+    border: 0;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: #663399;
+}
+
 /* Footer Styling */
 
 footer {
