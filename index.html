@@ -9,6 +9,8 @@
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+    <!-- Link to Font Awesome -->
+    <script src="https://kit.fontawesome.com/49afbd774f.js" crossorigin="anonymous"></script>
 
     <!-- Link to Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700&display=swap" rel="stylesheet">
@@ -70,32 +72,44 @@
         <section class="gallery">
             <h3>Home Renovations Gallery</h3>
             <p>We invite you to browse our gallery of home renovation and new home design projects.</p>
-            <div class="gallery-grid">
-                <!-- Featured Gallery Image One -->
-                <figure>
-                   <img src="./assets/double-sinks.jpg" alt="" class="gallery-image-one"> 
-                   <figcaption>Beautiful bathroom renovations</figcaption>
-                </figure>
-                
-                <!-- Featured Gallery Image Two -->
-                <figure>
-                    <img src="./assets/large-kitchen.jpg" alt="" class="gallery-image-two">
-                    <figcaption>Stunning kitchen renovations</figcaption>
-                </figure>
-                
-                <!-- Featured Gallery Image Three -->
-                <figure>
-                   <img src="./assets/lovely-kitchen.jpg" alt="" class="gallery-image-three"> 
-                   <figcaption>You'll love your house with these incredible additions</figcaption>
-                </figure>
-                
-                <!-- Featured Gallery Image Four -->
-                <figure>
-                    <img src="./assets/patio-doors.jpg" alt="" class="gallery-image-four">
-                    <figcaption>Give your house a facelift!</figcaption>
-                </figure>
-                
+            <div class="grid-container">
+                <!-- Image One -->
+                <article class="job-example">
+                    <a href="#" class="job-title">Bathroom Renovations</a>
+                    <div class="job-image">
+                        <a href="#">
+                            <img src="./assets/double-sinks.jpg" alt="Double Sinks Bathroom Renovation">
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Image Two -->
+                <article class="job-example">
+                    <a href="#" class="job-title">Kitchen Renovations</a>
+                    <div class="job-image">
+                        <a href="#">
+                            <img src="./assets/lovely-kitchen.jpg" alt="Lovely Kitchen Renovation">
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Image Three -->
+                <article class="job-example">
+                    <a href="#" class="job-title">Home Additions</a>
+                    <div class="job-image">
+                        <a href="">
+                            <img src="./assets/large-kitchen.jpg" alt="Large Kitchen Home Additions">
+                        </a>
+                    </div>
+                </article>
+
+
+
             </div>
+            
+            <p>Click any of the above images to see more stunning images of our work</p>
+                
+
         </section>
 
         <section class="testimonials">
@@ -132,10 +146,12 @@
                 </a>
               
               </div>
+              <p>Click <a href="#">here </a>to hear from our other satisfied customers</p>
+
         </section>
 
         <section class="expectations">
-            <h3>What you can expect</h3>
+            <h3>Our Promise to You</h3>
             <ul>
                 <li>Skilled craftsmanship</li>
                 <li>Attention to Detail</li>
@@ -145,21 +161,21 @@
             </ul>
         </section>
 
-        <section class="consult">
-            <h3>Book your free consultation now!</h3>
-            <button>Book Now!</button>
-        </section>
-
     </main>
 
     <footer>
-    <p>    
-        <h4>Call us at 905-464-2261 before your next home renovation!</h4>
-        <p>Optibuild Design Inc. Copyright 2014</p>
-        <p>Optibuild Design Inc.</p>
-        <p>2056 Coral Crescent, Burlington Ontario L7P</p>
-        <p>905-464-2261 / Info@Optibuild.ca</p>
-
+        <div class="background-footer">
+            <p class="footer-contact-info">Optibuild Design Inc., 2056 Coral Cr. Burlington, ON, L7P 3K5,</p>
+            <p class="footer-contact-info">(905) 464-2261 / Info@Optibuild.ca</p>
+            <img src="./assets/Opti-01.png" alt="The Optibuild Design Inc. Logo">
+            <!-- Insert Social Icons Here -->
+            <div class="social">
+                <a href="https://www.facebook.com/OptibuildDesign/"><i class="fab fa-facebook-square"></i></a>
+                <a href="https://ca.linkedin.com/in/john-faller-3153173a"><i class="fab fa-linkedin"></i></a> 
+               <a href="#"><i class="fas fa-envelope-square"></i></a> 
+            </div>
+            <p class="call-to-action">Call (905) 464-2261 before your next home renovation</p>
+        </div>
         <p class="tagline">Providing quality home renovations in the Oakville, Burlington, Mississauga and surrounding areas since 1984</p>
     </footer>
 
