@@ -17,3 +17,8 @@ To Do:
 - Need to get new, better testimonials 
 - Must be responsive
 - Have a call to action to get a free quote on every page
+- On services page, make sure that clicking the button on the landing section takes you to the part of the page with services listed
+- Services page is a little boring, look for ways to make it more interesting
+    - Pop-up window with explanations instead of scroll
+    - More interesting layout
+    - More interesting stylings
