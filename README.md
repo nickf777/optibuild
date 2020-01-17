@@ -3,22 +3,28 @@ Redesign of Optibuild.ca
 
 To Do:
 
-    - Wrappers
-- About Us
-- Services
+- Priority Nuber One is to make it responsive now with media queries
 
-- Figure out the stack that will get this job done in the most effortless way
-    - Check out bootstrap, jquery, scss etc.
-- Link nav to the various webpages
+    - Wrappers
+
+
+
 - Need pictures of the owners to personalize the page
-- How do I connect email links to immediately open an email app?
 - Need to find a way to collect client testimonials using a form (email?)
-- Need to find a way to 
 - Need to get new, better testimonials 
-- Must be responsive
+
+
 - Have a call to action to get a free quote on every page
-- On services page, make sure that clicking the button on the landing section takes you to the part of the page with services listed
+
+
+- Organize the gallery based on specific services offered and then have the index.html pages take you to that specific part of the gallery page
+
 - Services page is a little boring, look for ways to make it more interesting
     - Pop-up window with explanations instead of scroll
     - More interesting layout
     - More interesting stylings
+
+
+- Needs a favicon on each page
+-Forms need to actually do something
+- Create a contact form that sends users to a contact page rather than to their email
