@@ -3,7 +3,9 @@ Redesign of Optibuild.ca
 
 To Do:
 
-- Priority Nuber One is to make it responsive now with media queries
+- Priority Number One is to make it responsive now with media queries
+    - Fix the styling of the hamburger menu
+    - Otherwise it seems to be minor formatting things that might be fixed with min-widths and percentages and might not require media queries at all
 
     - Wrappers
 
