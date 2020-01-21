@@ -4,10 +4,14 @@ Redesign of Optibuild.ca
 To Do:
 
 - Priority Number One is to make it responsive now with media queries
-    - Fix the styling of the hamburger menu
-    - Otherwise it seems to be minor formatting things that might be fixed with min-widths and percentages and might not require media queries at all
 
-    - Wrappers
+    - Add Hamburger menu to other webpages
+    - Otherwise it seems to be minor formatting things that might be fixed with min-widths and percentages and might not require media queries at all
+    -
+
+    - Wrappers: added the rule-set but will break positioning on all divs
+        - Need to add wrappers and fix divs individually
+        - Next time, this needs to be a part of your early workflow 
 
 
 

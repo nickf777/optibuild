@@ -29,6 +29,12 @@ h3 {
     color: #663399;
 }
 
+.wrapper {
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+
 /* Header Styling */
 
 header {
@@ -82,7 +88,7 @@ li a {
     padding-bottom: 10px;
 }
 
-li a:hover:not(.contact-button) {
+header li a:hover:not(.contact-button) {
     border-bottom: 3px solid #663399;
     border-radius: 3px;
     color: #fff;
@@ -107,10 +113,12 @@ li a:hover:not(.contact-button) {
     cursor: pointer;
 }
 
+.hamburger {
+    display: none;
+}
 
 
 .hamburger-list {
-    display: none;
     flex-direction: row;
     justify-content: center;
     font-size: 1.25rem;
@@ -119,6 +127,33 @@ li a:hover:not(.contact-button) {
     margin-top: 0;
     margin-right: 0;
     width: 100%;
+    background: #663399;
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.hamburger-list a {
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
+
+.hamburger-list li {
+    transition-property: all;
+    transition-timing-function: ease-in;
+    transition-duration: 0.2s;
+    border-bottom: 1px solid transparent;
+    text-align: center;s
+}
+
+.hamburger-list li:hover {
+    border-bottom: 1px solid white;
+    border-radius: 5px;
+    color: #fff;
+
 }
 
 
@@ -486,3 +521,11 @@ footer img {
     }
 
 }
+
+@media only screen and (max-width: 716px) {
+    .landing h1, 
+    .landing h2 {
+        font-size: 4rem;
+    }
+}
+
