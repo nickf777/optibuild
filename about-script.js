@@ -13,7 +13,7 @@ icon.addEventListener("click", function() {
 // Remove hamburger menu on re-size
 
 window.addEventListener("resize", function() {
-    if (innerWidth >= 1135) {
+    if (innerWidth > 1135) {
         menu.style.display = "none"
     }
 })

@@ -29,6 +29,12 @@ h3 {
     color: #663399;
 }
 
+.wrapper {
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+
 /* Header Styling */
 
 header {
@@ -40,6 +46,13 @@ header {
     height: 20vh;
     align-items: center;
     width: 100%;
+}
+
+.flex-container-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
 }
 
 header img {
@@ -82,7 +95,7 @@ li a {
     padding-bottom: 10px;
 }
 
-li a:hover:not(.contact-button) {
+header li a:hover:not(.contact-button) {
     border-bottom: 3px solid #663399;
     border-radius: 3px;
     color: #fff;
@@ -95,7 +108,65 @@ li a:hover:not(.contact-button) {
     color: #fff;
 }
 
+/* Hamburger Menu */
+
+
+.fa-bars {
+    color: #663399;
+    margin-right: 50px;
+    font-size: 4rem;
+    display: none;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.hamburger {
+    display: none;
+}
+
+
+.hamburger-list {
+    flex-direction: row;
+    justify-content: center;
+    font-size: 1.25rem;
+    background: rgb(0,0,0,0.2);
+    padding: 5px;
+    margin-top: 0;
+    margin-right: 0;
+    width: 100%;
+    background: #663399;
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.hamburger-list a {
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
+
+.hamburger-list li {
+    transition-property: all;
+    transition-timing-function: ease-in;
+    transition-duration: 0.2s;
+    border-bottom: 1px solid transparent;
+    text-align: center;
+}
+
+.hamburger-list li:hover {
+    border-bottom: 1px solid white;
+    border-radius: 5px;
+    color: #fff;
+}
+
 /* Main Styling */
+
+main {
+    margin: 0 auto;
+}
 
 .intro {
     background: url(./assets/double-sinks.jpg);
@@ -105,6 +176,7 @@ li a:hover:not(.contact-button) {
     width: 100%;
     height: calc(100vh - 20vh);
     background-repeat: no-repeat;
+    margin: 0 auto;
 }
 
 .background {
@@ -280,7 +352,7 @@ i {
     transition-timing-function: ease;
 }
 
-i:hover {
+footer i:hover {
     color: #8c48cf;
     font-size: 4.5rem;
     margin: 0 5px 0 5px;
@@ -303,3 +375,28 @@ footer img {
     font-style: italic;
     font-size: 2rem;
 }
+
+/* Media Queries */
+
+@media only screen and (max-width: 1135px) {
+    header {
+        justify-content: space-between;
+    }
+
+    header nav {
+        display: none;
+    }
+
+    .fa-bars {
+        display: block;
+    }
+
+}
+
+@media only screen and (max-width: 716px) {
+    .landing h1, 
+    .landing h2 {
+        font-size: 4rem;
+    }
+}
+

@@ -23,18 +23,38 @@
 <body>
 
     <header>
-        <img src="./assets/Opti-01.png" alt="The Optibuild Design Inc. Logo">
-        <nav>
-            <ul>
+        <div class="flex-container-header wrapper">
+            <img src="./assets/Opti-01.png" alt="The Optibuild Design Inc. Logo">
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./about.html">About Us</a></li>
+                    <li><a href="./services.html">Services</a></li>
+                    <li><a href="./testimonials.html">Testimonials</a></li>
+                    <li><a href="./gallery.html">Gallery</a></li>
+                    <li ><a href="mailto:info@optibuild.ca?subject=Tell%20Us%20About%20Your%20Project." target="_top" class="contact-button">Contact Us</a></li>
+                </ul>  
+            </nav>  
+        
+            <!-- Hamburger Menu for Mobile -->
+            <i class="fas fa-bars"></i>
+        
+        
+        
+    </header>
+
+    <div id = "hamburger-menu" class="hamburger">
+            
+            <ul id= "hamburger-list" class="hamburger-list">
                 <li><a href="./index.html">Home</a></li>
                 <li><a href="./about.html">About Us</a></li>
                 <li><a href="./services.html">Services</a></li>
                 <li><a href="./testimonials.html">Testimonials</a></li>
                 <li><a href="./gallery.html">Gallery</a></li>
-                <li ><a href="mailto:info@optibuild.ca?subject=Tell%20Us%20About%20Your%20Project." target="_top" class="contact-button">Contact Us</a></li>
-            </ul>  
-        </nav>  
-    </header>
+                <li><a href="mailto:info@optibuild.ca?subject=Tell%20Us%20About%20Your%20Project." target="_top" >Contact Us</a></li>
+            </ul>
+    </div>
+</div>
 
     <main>
 
@@ -44,6 +64,7 @@
                 <p>Professional home renovations</p>
             </div>
         </section>
+        
 
         <section class="general-info">
             <div class="about">
@@ -116,6 +137,6 @@
         <p class="tagline">Providing quality home renovations in the Oakville, Burlington, Mississauga and surrounding areas since 1984</p>
     </footer>
 
-    
+<script src="./about-script.js"></script>    
 </body>
 </html>

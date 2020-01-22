@@ -22,22 +22,25 @@
 </head>
 
 
-<body>
+<body >
     <header>
-        <img src="./assets/Opti-01.png" alt="The Optibuild Design Inc. Logo">
-        <nav>
-            <ul>
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./about.html">About Us</a></li>
-                <li><a href="./services.html">Services</a></li>
-                <li><a href="./testimonials.html">Testimonials</a></li>
-                <li><a href="./gallery.html">Gallery</a></li>
-                <li ><a href="mailto:info@optibuild.ca?subject=Tell%20Us%20About%20Your%20Project." target="_top" class="contact-button">Contact Us</a></li>
-            </ul>  
-        </nav>  
-    
-        <!-- Hamburger Menu for Mobile -->
-        <i class="fas fa-bars"></i>
+        <div class="flex-container-header wrapper">
+            <img src="./assets/Opti-01.png" alt="The Optibuild Design Inc. Logo">
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./about.html">About Us</a></li>
+                    <li><a href="./services.html">Services</a></li>
+                    <li><a href="./testimonials.html">Testimonials</a></li>
+                    <li><a href="./gallery.html">Gallery</a></li>
+                    <li ><a href="mailto:info@optibuild.ca?subject=Tell%20Us%20About%20Your%20Project." target="_top" class="contact-button">Contact Us</a></li>
+                </ul>  
+            </nav>  
+        
+            <!-- Hamburger Menu for Mobile -->
+            <i class="fas fa-bars"></i>
+        
+        
         
     </header>
 
@@ -52,6 +55,7 @@
                 <li><a href="mailto:info@optibuild.ca?subject=Tell%20Us%20About%20Your%20Project." target="_top" >Contact Us</a></li>
             </ul>
     </div>
+</div>
     
     <main>
         <!-- Full bleed landing section with a beautiful background image -->
@@ -66,133 +70,151 @@
         </section>
 
         <section class="about">
-            <h3>Superior Home Renovations</h3>
-            <h4>Welcome to Optibuild Design</h4>
-            <p>Whether it’s a full scale <span class="bold">home renovation, home addition or new home design project</span>, Optibuild Design will make your renovation dreams a reality. From <span class="bold">concept to completion</span>, we are there every step of the way making your experience a positive one.</p>
+            <div class="wrapper">
+                <h3>Superior Home Renovations</h3>
+                <h4>Welcome to Optibuild Design</h4>
+                <p>Whether it’s a full scale <span class="bold">home renovation, home addition or new home design project</span>, Optibuild Design will make your renovation dreams a reality. From <span class="bold">concept to completion</span>, we are there every step of the way making your experience a positive one.</p>   
+            </div>
+            
         </section>
 
         <section class="mailing">
-            <h3>Join our Mailing List</h3>
-            
-            <div class="opt-in">
-                <img src="./assets/Optibuild Opt-In.png" alt="A sample of the first page of the Opt-In bonus for the Optibuild mailing list">
-            </div>
+            <div class="wrapper flex-container-mailing">
+                <h3>Join our Mailing List</h3>
+                
+                <div class="opt-in">
+                    <img src="./assets/Optibuild Opt-In.png" alt="A sample of the first page of the Opt-In bonus for the Optibuild mailing list">
+                </div>
 
-            <div class="opt-in-text">
-                <p>Subscribe to our mailing list for the latest updates about current projects, renovations tips, and more!</p>
-                <input type="text" placeholder="Please enter your email address">
-                <button>Sign me up!</button>
+                <div class="opt-in-text">
+                    <p>Subscribe to our mailing list for the latest updates about current projects, renovations tips, and more!</p>
+                    <input type="text" placeholder="Please enter your email address">
+                    <button>Sign me up!</button>
+                </div>   
             </div>
+            
         </section>
 
         <section class="gallery">
-            <h3>Home Renovations Gallery</h3>
-            <p>We invite you to browse our gallery of home renovation and new home design projects.</p>
-            <div class="grid-container">
-                <!-- Image One -->
-                <article class="job-example">
-                    <a href="./gallery.html" class="job-title">Bathroom Renovations</a>
-                    <div class="job-image">
-                        <a href="./gallery.html">
-                            <img src="./assets/double-sinks.jpg" alt="Double Sinks Bathroom Renovation">
-                        </a>
-                    </div>
-                </article>
+            <div class="wrapper">
+                <h3>Home Renovations Gallery</h3>
+                <p>We invite you to browse our gallery of home renovation and new home design projects.</p>
+                <div class="grid-container">
+                    <!-- Image One -->
+                    <article class="job-example">
+                        <a href="./gallery.html" class="job-title">Bathroom Renovations</a>
+                        <div class="job-image">
+                            <a href="./gallery.html">
+                                <img src="./assets/double-sinks.jpg" alt="Double Sinks Bathroom Renovation">
+                            </a>
+                        </div>
+                    </article>
 
-                <!-- Image Two -->
-                <article class="job-example">
-                    <a href="./gallery.html" class="job-title">Kitchen Renovations</a>
-                    <div class="job-image">
-                        <a href="./gallery.html">
-                            <img src="./assets/lovely-kitchen.jpg" alt="Lovely Kitchen Renovation">
-                        </a>
-                    </div>
-                </article>
+                    <!-- Image Two -->
+                    <article class="job-example">
+                        <a href="./gallery.html" class="job-title">Kitchen Renovations</a>
+                        <div class="job-image">
+                            <a href="./gallery.html">
+                                <img src="./assets/lovely-kitchen.jpg" alt="Lovely Kitchen Renovation">
+                            </a>
+                        </div>
+                    </article>
 
-                <!-- Image Three -->
-                <article class="job-example">
-                    <a href="./gallery.html" class="job-title">Home Additions</a>
-                    <div class="job-image">
-                        <a href="./gallery.html">
-                            <img src="./assets/large-kitchen.jpg" alt="Large Kitchen Home Additions">
-                        </a>
-                    </div>
-                </article>
+                    <!-- Image Three -->
+                    <article class="job-example">
+                        <a href="./gallery.html" class="job-title">Home Additions</a>
+                        <div class="job-image">
+                            <a href="./gallery.html">
+                                <img src="./assets/large-kitchen.jpg" alt="Large Kitchen Home Additions">
+                            </a>
+                        </div>
+                    </article>
 
 
 
+                </div>
+                
+                <p>Click any of the above images to see more stunning images of our work</p>
+                        
             </div>
             
-            <p>Click any of the above images to see more stunning images of our work</p>
-                
 
         </section>
 
         <section class="testimonials">
-            <h3>What our clients say</h3>
-            <p>Find out what our clients think about our work</p>
-            <div id="demo" class="carousel slide" data-ride="carousel">
+            <div class="wrapper">
+                <h3>What our clients say</h3>
+                <p>Find out what our clients think about our work</p>
+                <div id="demo" class="carousel slide" data-ride="carousel">
 
-                <!-- Indicators -->
-                <ul class="carousel-indicators">
-                  <li data-target="#demo" data-slide-to="0" class="active"></li>
-                  <li data-target="#demo" data-slide-to="1"></li>
-                  <li data-target="#demo" data-slide-to="2"></li>
-                </ul>
-              
-                <!-- The slideshow -->
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="./assets/My Post.png" alt="Testimonial One">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="./assets/My Post.png" alt="Testimonial Two">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="./assets/My Post.png" alt="Testimonial Three">
-                  </div>
+                    <!-- Indicators -->
+                    <ul class="carousel-indicators">
+                    <li data-target="#demo" data-slide-to="0" class="active"></li>
+                    <li data-target="#demo" data-slide-to="1"></li>
+                    <li data-target="#demo" data-slide-to="2"></li>
+                    </ul>
+                
+                    <!-- The slideshow -->
+                    <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./assets/My Post.png" alt="Testimonial One">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/My Post.png" alt="Testimonial Two">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/My Post.png" alt="Testimonial Three">
+                    </div>
+                    </div>
+                
+                    <!-- Left and right controls -->
+                    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#demo" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                    </a>
+                
                 </div>
-              
-                <!-- Left and right controls -->
-                <a class="carousel-control-prev" href="#demo" data-slide="prev">
-                  <span class="carousel-control-prev-icon"></span>
-                </a>
-                <a class="carousel-control-next" href="#demo" data-slide="next">
-                  <span class="carousel-control-next-icon"></span>
-                </a>
-              
-              </div>
-              <p>Click <a href="./testimonials.html">here </a>to hear from our other satisfied customers</p>
-
+                <p>Click <a href="./testimonials.html">here </a>to hear from our other satisfied customers</p>
+    
+            </div>
+            
         </section>
 
         <section class="expectations">
-            <h3>Our Promise to You</h3>
-            <ul>
-                <li>Skilled craftsmanship</li>
-                <li>Attention to Detail</li>
-                <li>Prompt and reliable</li>
-                <li>High quality materials</li>
-                <li>Exceptional customer service</li>
-            </ul>
+            <div class="wrapper">
+                <h3>Our Promise to You</h3>
+                <ul>
+                    <li>Skilled craftsmanship</li>
+                    <li>Attention to Detail</li>
+                    <li>Prompt and reliable</li>
+                    <li>High quality materials</li>
+                    <li>Exceptional customer service</li>
+                </ul>   
+            </div>
+            
         </section>
 
     </main>
 
     <footer>
-        <div class="background-footer">
-            <p class="footer-contact-info">Optibuild Design Inc., 2056 Coral Cr. Burlington, ON, L7P 3K5,</p>
-            <p class="footer-contact-info">(905) 464-2261 / Info@Optibuild.ca</p>
-            <img src="./assets/Opti-01.png" alt="The Optibuild Design Inc. Logo">
-            <!-- Insert Social Icons Here -->
-            <div class="social">
-                <a href="https://www.facebook.com/OptibuildDesign/"><i class="fab fa-facebook-square"></i></a>
-                <a href="https://ca.linkedin.com/in/john-faller-3153173a"><i class="fab fa-linkedin"></i></a> 
-                <a href="mailto:info@optibuild.ca?subject=Tell%20Us%20About%20Your%20Project." target="_top" ><i class="fas fa-envelope-square"></i></a> 
+        <div class="wrapper flex-container-footer">
+            <div class="background-footer">
+                <p class="footer-contact-info">Optibuild Design Inc., 2056 Coral Cr. Burlington, ON, L7P 3K5,</p>
+                <p class="footer-contact-info">(905) 464-2261 / Info@Optibuild.ca</p>
+                <img src="./assets/Opti-01.png" alt="The Optibuild Design Inc. Logo">
+                <!-- Insert Social Icons Here -->
+                <div class="social">
+                    <a href="https://www.facebook.com/OptibuildDesign/"><i class="fab fa-facebook-square"></i></a>
+                    <a href="https://ca.linkedin.com/in/john-faller-3153173a"><i class="fab fa-linkedin"></i></a> 
+                    <a href="mailto:info@optibuild.ca?subject=Tell%20Us%20About%20Your%20Project." target="_top" ><i class="fas fa-envelope-square"></i></a> 
+                </div>
+                <p class="call-to-action">Call (905) 464-2261 before your next home renovation</p>
             </div>
-            <p class="call-to-action">Call (905) 464-2261 before your next home renovation</p>
+            <p class="tagline">Providing quality home renovations in the Oakville, Burlington, Mississauga and surrounding areas since 1984</p>
         </div>
-        <p class="tagline">Providing quality home renovations in the Oakville, Burlington, Mississauga and surrounding areas since 1984</p>
+        
     </footer>
 
     
