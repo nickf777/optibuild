@@ -168,6 +168,7 @@ main {
     margin: 0 auto;
 }
 
+
 .intro {
     background: url(./assets/double-sinks.jpg);
     background-position: center;
@@ -307,6 +308,13 @@ footer {
     text-align: center;
 }
 
+.flex-container-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 
 footer .background-footer {
     margin-top: 10px;
@@ -378,6 +386,17 @@ footer img {
 
 /* Media Queries */
 
+@media only screen and (max-width: 1264px) {
+    .general-info,
+    .reasons {
+        flex-direction: column;
+    }
+
+    img {
+        margin-bottom: 20px;
+    }
+}
+
 @media only screen and (max-width: 1135px) {
     header {
         justify-content: space-between;
@@ -398,5 +417,13 @@ footer img {
     .landing h2 {
         font-size: 4rem;
     }
+
+    footer .background-footer {
+        width: 90%;
+    }
 }
+
+
+
+
 

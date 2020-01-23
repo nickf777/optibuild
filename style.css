@@ -181,6 +181,7 @@ header li a:hover:not(.contact-button) {
     color: white;
     font-weight: bold;
     margin: 0 auto;
+    text-align: center;
 }
 
 .background {
@@ -544,10 +545,35 @@ footer img {
 
 }
 
+@media only screen and (max-width: 874px) {
+    .expectations ul {
+        font-size: 1.5rem;
+    }
+}
+
 @media only screen and (max-width: 716px) {
     .landing h1, 
     .landing h2 {
         font-size: 4rem;
     }
+
+    .expectations ul {
+        font-size: 2rem;
+        flex-direction: column;
+    }
+
+    .expectations li {
+        width: 200px;
+    }
+
+    footer .background-footer {
+        width: 90%;
+    }
 }
+
+
+
+
+
+
 

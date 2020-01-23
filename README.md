@@ -4,7 +4,8 @@ Redesign of Optibuild.ca
 To Do:
 
 - Priority Number One is to make it responsive now with media queries
-
+    - To add to other weebpages
+        - Transfer wrapper rule, unique flex-container rules, media queries, make new JS file and transfer hamburger functionality, hamburger html, add wrappers to relevant sections, add margin 0 auto to sections you don't have a wrapper on(?)
     - Add Hamburger menu to other webpages
     - Otherwise it seems to be minor formatting things that might be fixed with min-widths and percentages and might not require media queries at all
     -
