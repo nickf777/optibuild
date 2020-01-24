@@ -25,6 +25,12 @@ h3 {
     color: #663399;
 }
 
+.wrapper {
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+
 /* Header Styling */
 
 header {
@@ -36,6 +42,13 @@ header {
     height: 20vh;
     align-items: center;
     width: 100%;
+}
+
+.flex-container-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
 }
 
 header img {
@@ -89,6 +102,61 @@ li a:hover:not(.contact-button) {
     background: #8c48cf;
     text-decoration: none;
     color: #fff;
+}
+
+/* Hamburger Menu */
+
+
+.fa-bars {
+    color: #663399;
+    margin-right: 50px;
+    font-size: 4rem;
+    display: none;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.hamburger {
+    display: none;
+}
+
+
+.hamburger-list {
+    flex-direction: row;
+    justify-content: center;
+    font-size: 1.25rem;
+    background: rgb(0,0,0,0.2);
+    padding: 5px;
+    margin-top: 0;
+    margin-right: 0;
+    width: 100%;
+    background: #663399;
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.hamburger-list a {
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
+
+.hamburger-list li {
+    transition-property: all;
+    transition-timing-function: ease-in;
+    transition-duration: 0.2s;
+    border-bottom: 1px solid transparent;
+    text-align: center;
+}
+
+.hamburger-list li:hover {
+    border-bottom: 1px solid white;
+    border-radius: 5px;
+    color: #fff;
+
 }
 
 
@@ -163,6 +231,13 @@ footer {
 
 }
 
+.flex-container-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 
 footer .background-footer {
     margin-top: 10px;
@@ -230,4 +305,33 @@ footer img {
     padding-bottom: 20px;
     font-style: italic;
     font-size: 2rem;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 1135px) {
+    header {
+        justify-content: space-between;
+    }
+
+    header nav {
+        display: none;
+    }
+
+    .fa-bars {
+        display: block;
+    }
+
+}
+
+
+@media only screen and (max-width: 716px) {
+    .landing h1, 
+    .landing h2 {
+        font-size: 4rem;
+    }
+
+    footer .background-footer {
+        width: 90%;
+    }
 }

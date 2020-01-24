@@ -19,24 +19,47 @@
     <link rel="stylesheet" href="./setup.css">
     <link rel="stylesheet" href="./testimonials-style.css">
 
+    <link rel="shortcut icon" href="./assets/Opti-01.jpg" type="image/x-icon">
+
+
 </head>
 
 <body>
     
     <main>
         <header>
-            <img src="./assets/Opti-01.png" alt="The Optibuild Design Inc. Logo">
-            <nav>
-                <ul>
+            <div class="flex-container-header wrapper">
+                <img src="./assets/Opti-01.png" alt="The Optibuild Design Inc. Logo">
+                <nav>
+                    <ul>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./about.html">About Us</a></li>
+                        <li><a href="./services.html">Services</a></li>
+                        <li><a href="./testimonials.html">Testimonials</a></li>
+                        <li><a href="./gallery.html">Gallery</a></li>
+                        <li ><a href="mailto:info@optibuild.ca?subject=Tell%20Us%20About%20Your%20Project." target="_top" class="contact-button">Contact Us</a></li>
+                    </ul>  
+                </nav>  
+            
+                <!-- Hamburger Menu for Mobile -->
+                <i class="fas fa-bars"></i>
+            
+            
+            
+        </header>
+    
+        <div id = "hamburger-menu" class="hamburger">
+                
+                <ul id= "hamburger-list" class="hamburger-list">
                     <li><a href="./index.html">Home</a></li>
                     <li><a href="./about.html">About Us</a></li>
                     <li><a href="./services.html">Services</a></li>
                     <li><a href="./testimonials.html">Testimonials</a></li>
                     <li><a href="./gallery.html">Gallery</a></li>
-                    <li ><a href="mailto:info@optibuild.ca?subject=Tell%20Us%20About%20Your%20Project." target="_top" class="contact-button">Contact Us</a></li>
-                </ul>  
-            </nav>  
-        </header>
+                    <li><a href="mailto:info@optibuild.ca?subject=Tell%20Us%20About%20Your%20Project." target="_top" >Contact Us</a></li>
+                </ul>
+        </div>
+    </div>
 
         <section class="intro">
             <div class="background">
@@ -45,7 +68,7 @@
             </div>
         </section>
 
-        <section class="testimonials">
+        <section class="testimonials wrapper">
             <p>“We were very pleased with the results  of the renovation.  The job was done in a timely manner and we were consulted of any changes and kept informed at all times.  The job site was kept clean and did not disturb our day to day plans.  Thanks Optibuild for a job well done.” -- <span class="bold">Dora, Fergus, Ontario</span> </p>
 
             <p>“The work Optibuild did was awesome.  I found nothing to call you back for!” -- <span class="bold">Mike, Oakville, Ontario</span> </p>
@@ -76,6 +99,6 @@
     </main>
 
     
-
+<script src="./testimonials-script.js"></script>
 </body>
 </html>

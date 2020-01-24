@@ -146,6 +146,7 @@ header li a:hover:not(.contact-button) {
     color: #fff;
     text-decoration: none;
     text-align: center;
+    
 }
 
 .hamburger-list li {
@@ -154,6 +155,7 @@ header li a:hover:not(.contact-button) {
     transition-duration: 0.2s;
     border-bottom: 1px solid transparent;
     text-align: center;
+    
 }
 
 .hamburger-list li:hover {
@@ -245,6 +247,7 @@ section p {
     align-items: center;
     border-bottom: 1px solid black;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .services h2 {
@@ -389,5 +392,9 @@ footer img {
 
     footer .background-footer {
         width: 90%;
+    }
+
+    .services {
+        display: none;
     }
 }
